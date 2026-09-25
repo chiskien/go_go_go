@@ -72,12 +72,28 @@ package main
 
 ### Internal and External testing
 
-- Preparation Phase: 
+- Preparation Phase:
 - Execution Phase:
 - Decision Phase:
-- Teardown Phase: 
+- Teardown Phase:
 
 ## Chapter 3: A Bookworm's Digest: Playing with Loops and Maps
+
+> Objectives:
+> - Ranging over `slice` and map
+> - Using a `map` to store unique values
+> - Learning how to open and read a file
+> - Decoding JSON files
+> - Sorting a `slice` with custom comparators
+
+- Practice with `slice` and `map` is Go's dynamic, flexible data structures similar to array
+
+### Requirements:
+
+- Read file input is a JSON file
+- Write a CLI tool that takes a list of bookworms and their book collections in the form of a JSON file
+- Find the books the bookworms have in common on their selves
+- Recommend books for each bookworm based on their matching books with other bookworms
 
 ## Chapter 4: A Log Story: Creating A Library
 
